@@ -27,16 +27,16 @@ This repository should be included as a dependency in the robot's ROS 2 workspac
 1. Add this repository into your repository's .rosinstall file (in repository root directory):
     ```
     repositories:
-        exodapt_robot_interfaces:
-            type: git
-            url: https://github.com/robin-karlsson0/exodapt_robot_interfaces.git
-            version: main
-            path: ros2_ws/src/exodapt_robot_interfaces
+      exodapt_robot_interfaces:
+        type: git
+        url: https://github.com/robin-karlsson0/exodapt_robot_interfaces.git
+        version: main
+        path: ros2_ws/src/exodapt_robot_interfaces
     ```
 
 2. Import this repository into your ROS 2 workspace's `src/` directory:
    ```sh
-   vcstool import ros2_ws/src/ < .rosinstall
+   vcs import ros2_ws/src/ < .rosinstall
    ```
 
 3. Build the workspace using colcon:
