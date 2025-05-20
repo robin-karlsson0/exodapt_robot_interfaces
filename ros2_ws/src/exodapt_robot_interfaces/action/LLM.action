@@ -1,0 +1,9 @@
+string system_prompt
+string prompt
+int32 max_tokens
+float32 temp
+int32 seed
+---
+string response
+---
+string streaming_resp

@@ -1,0 +1,6 @@
+string state
+string instruction
+---
+string reply
+---
+string streaming_resp
