@@ -1,4 +1,5 @@
 string state
+string valid_actions
 ---
 string pred_action
 ---
