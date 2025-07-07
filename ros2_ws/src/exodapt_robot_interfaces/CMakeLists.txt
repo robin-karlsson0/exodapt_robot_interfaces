@@ -26,8 +26,9 @@ endif()
 find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/ActionDecision.action"
-  "action/ReplyAction.action"
   "action/LLM.action"
+  "action/LongDummyAction.action"
+  "action/ReplyAction.action"
   "srv/State.srv"
 )
 
